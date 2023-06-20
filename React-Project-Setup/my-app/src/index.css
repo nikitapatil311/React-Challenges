@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* Used for texts (+ footer background) */
+  --color-granite: #252629;
+  /* Used for backgrounds (+ footer text color) */
+  --color-foam: #ffffff;
+  /* Used for buttons, icons, etc. */
+  --color-nemo: #ff4a11;
+  /* active color for buttons, icons, etc. */
+  --color-nemo-mid: #ff5c29;
+  /* hover color for buttons, icons, etc. */
+  --color-nemo-dark: #e5430f;
+  /* Used for borders and some backgrounds */
+  --color-water-10: #e4e8f0;
+}
+.App-header {
+  background-color: var(--color-granite);
+  text-align: center;
+  color: var(--color-foam);
+}
+
+#motto {
+  display: flex;
+  margin-left: 10%;
+}
+
+#notes {
+  display: flex;
+  margin-left: 10%;
+}
+
+.text {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.create-button {
+  height: 60px;
+  width: 25%;
+  color: var(--color-water-10);
+  background-color: var(--color-nemo-mid);
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 25px;
+  border: var(--color-foam);
+}
+
+.tab1 {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+}
+
+.entries {
+}
+
+.footer {
+  height: 40px;
+  color: var(--color-foam);
+  background-color: var(--color-granite);
+  text-align: center;
+  font-size: 25px;
+}
