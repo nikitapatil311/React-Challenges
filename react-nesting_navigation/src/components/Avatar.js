@@ -1,7 +1,6 @@
 import Image from "./components/Image.js";
 
 import avatar from "../img/avatar.jpg";
-
 export default function Avatar() {
   return (
     <button
